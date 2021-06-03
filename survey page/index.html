@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="bootstrap/bootStrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+		<div class="col-sm-12">
+			<div class="mm-survey">
+
+				<div class="mm-survey-progress">
+					<div class="mm-survey-progress-bar mm-progress"></div>
+				</div>
+
+				<div class="mm-survey-results">
+					<div class="mm-survey-results-container">
+						<h3 class="mm-survey-results-score"></h3>
+						<ul class="mm-survey-results-list"></ul>
+					</div>
+					<div class="mm-survey-results-controller">
+						<div class="mm-back-btn">
+							<button>Back</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="mm-survey-bottom">
+					<div class="mm-survey-container">
+
+						<div class="mm-survey-page active" data-page="1">
+							<div class="mm-survery-content">
+								<div class="mm-survey-question">
+									<p>Which snippet of CSS is commonly used to center a website horizontally?</p>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio01" data-item="1" name="radio1" value="margin: 0 auto;" />
+									<label for="radio01"><span></span><p>margin: 0 auto;</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio02" data-item="1" name="radio1" value="margin: auto 0;" />
+									<label for="radio02"><span></span><p>margin: auto 0;</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio03" data-item="1" name="radio1" value="site-align: center;" />
+									<label for="radio03"><span></span><p>site-align: center;</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio04" data-item="1" name="radio1" value="margin: center;" />
+									<label for="radio04"><span></span><p>margin: center;</p></label>
+								</div>
+							</div>
+						</div>
+						<div class="mm-survey-page" data-page="2">
+							<div class="mm-survery-content">
+								<div class="mm-survey-question">
+									<p>Inside which HTML element do we put the JavaScript?</p>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio05" data-item="2" name="radio2" value="javascript" />
+									<label for="radio05"><span></span><p>javascript</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio06" data-item="2" name="radio2" value="JS" />
+									<label for="radio06"><span></span><p>JS</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio07" data-item="2" name="radio2" value="script" />
+									<label for="radio07"><span></span><p>script</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio08" data-item="2" name="radio2" value="link" />
+									<label for="radio08"><span></span><p>link</p></label>
+								</div>
+							</div>
+						</div>
+						<div class="mm-survey-page" data-page="3">
+							<div class="mm-survery-content">
+								<div class="mm-survey-question">
+									<p>Which HTML5 element defines navigation links?</p>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio09" data-item="3" name="radio3" value="navigation" />
+									<label for="radio09"><span></span><p>navigation</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio10" data-item="3" name="radio3" value="links" />
+									<label for="radio10"><span></span><p>links</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio11" data-item="3" name="radio3" value="navigate" />
+									<label for="radio11"><span></span><p>navigate</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio12" data-item="3" name="radio3" value="nav" />
+									<label for="radio12"><span></span><p>nav</p></label>
+								</div>
+							</div>
+						</div>
+						<div class="mm-survey-page" data-page="4">
+							<div class="mm-survery-content">
+								<div class="mm-survey-question">
+									<p>Which of the following function of Array object removes the last element from an array and returns that element?</p>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio13" data-item="4" name="radio4" value="push()" />
+									<label for="radio13"><span></span><p>push()</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio14" data-item="4" name="radio4" value="join()" />
+									<label for="radio14"><span></span><p>join()</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio15" data-item="4" name="radio4" value="pop()" />
+									<label for="radio15"><span></span><p>pop()</p></label>
+								</div>
+								<div class="mm-survey-item">
+									<input type="radio" id="radio16" data-item="4" name="radio4" value="map()" />
+									<label for="radio16"><span></span><p>map()</p></label>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="mm-survey-controller">
+						<div class="mm-prev-btn">
+							<button>Prev</button>
+						</div>
+						<div class="mm-next-btn">
+							<button disabled="true">Next</button>
+						</div>
+						<div class="mm-finish-btn">
+							<button>Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="bootstrap/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="survey.js"></script>
+</body>
+</html>
